@@ -40,21 +40,48 @@ img {
 
 }
 .container {
-    width: 1200px;
+    width: 1600px;
     padding: 0 15px;
+    align-items: center;
+    margin: auto;
+    display: block;
+
 }
 /* ======== HEADER ========*/
 
 .header .container{
     display: flex;
+    align-items: center;
+    padding-top: 23px;
+    padding-bottom: 32px;
+    padding-left: 150px;
+
 }
 .navigation {
     display: flex;
+    
+}
+.navigation-list {
+    display: flex;
+    align-items: center;
+    
+}
+.navigation-list-item:not(:last-child) {
+    margin-right: 50px;
+
+}
+.navigation-logo {
+    margin-right: 200px;
+
+}
+.address-mail {
+    margin-right: 50px;
+    margin-left: 400px;
+
 }
 .navigation-list-link,
 .address-mail,
 .address-phone-number {
-    
     font-weight: 500;
     font-size: 14px;
     line-height: 1.143;
@@ -67,18 +94,15 @@ img {
 .navigation-list-link:focus,
 .address-mail:hover,
 .address-mail:focus {
-   
-    color: var(--secondary-color);
+   color: var(--secondary-color);
 
 }
 .address-mail,
 .address-phone-number {
-    
     font-style: normal;
 
 }
 .address-phone-number {
-    
     color: var(--third-color);
 
 }
@@ -86,39 +110,51 @@ img {
 
 /* ======== HERO ========*/
 
-.hero-title {
-    
+.hero .container {
+    display: flex;;
+    align-items: center;
+
+}
+.hero-title:not(last-child) {
     font-weight: 900;
     font-size: 44px;
     line-height: 1.364;
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
+    width: 1600px;
+    height: 600px;
+    padding-top: 200px;
+    padding-right: 452px;
+    padding-bottom: 280px;
+    padding-left: 452px;
     color: var(--fourth-color);
     background-color: var(--fifth-color);
     
 }
+.modal-btn .container {
+    display: block;
+    align-items: center;
+
+}    
 .modal-btn {
-    
     font-weight: 700;
     font-size: 16px;
     line-height: 1.875;
-    align-items: center;
-    text-align: center;
     letter-spacing: 0.06em;
+    width: 200px;
+    height: 50px;
     background-color: var(--secondary-color);
     cursor: pointer;
     
 }
 .hero.title,
 .modal-btn {
-   
-    color: var(--fourth-color);
+   color: var(--fourth-color);
 
 }
 .modal-btn:hover,
 .modal-btn:focus {
-    
     color: var(--secondary-color);
 
 }
@@ -127,47 +163,52 @@ img {
 
 /* ======== MAIN ========*/
 
+.description .container {
+    display: flex;
+    padding-top: 174px;
+
+}
+.description-list-item {
+    display: flex;
+    align-items: center;
+}
 .description-main-header {
-   
     font-weight: 700;
     font-size: 14px;
     line-height: 1.143;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: var(--main-color);
+    color: var(--main-color)
 
 }
-.description-list-item {
-    
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.714;
-    letter-spacing: 0.03em;
-    color: var(--third-color);
+.about .container {
+    display: flex;
+    margin-top: 94px;
+    margin-bottom: 94px;
 
 }
 .about-main-header,
 .team-main-header {
-    
     font-weight: 700;
     font-size: 36px;
     line-height: 1.167;
     letter-spacing: 0.03em;
+    margin-top: 94px;
+    margin-bottom: 94px;
     color: var(--main-color);
 
 }
 .team-header-name {
-    
     font-weight: 500;
     font-size: 16px;
     line-height: 1.187;
     letter-spacing: 0.03em;
+    padding-top: 94px;
     color: var(--main-color);
 
 }
 .team-description {
-   
-    font-weight: 400;
+   font-weight: 400;
     font-size: 16px;
     line-height: 1.187;
     letter-spacing: 0.03em;
@@ -181,7 +222,6 @@ img {
 .navigation-address-list-target-link,
 .navigation-address-list-mail,
 .navigation-address-list-phone-number {
-    
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -193,8 +233,7 @@ img {
 }
 .navigation-address-list-mail,
 .navigation-address-list-phone-number {
-   
-    color: rgba(255, 255, 255, 0.6);
+   color: rgba(255, 255, 255, 0.6);
 
 }
 .navigation-address-list-target-link:hover,
@@ -204,7 +243,7 @@ img {
 .navigation-address-list-phone-number:hover,
 .navigation-address-list-phone-number:focus {
     
-    color: var(--secondary-color)
+color: var(--secondary-color)
 }
 
 /* ======== END FOOTER ========*/

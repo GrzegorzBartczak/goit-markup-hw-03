@@ -4,25 +4,28 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="/Zajęcia praktyczne 1/goit-markup-hw-01/css" />
+    <link rel="stylesheet" href="/css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="node_modules/modern-normalize/modern-normalize.css">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
+  />
     <title>WebStudio</title>
   </head>
   <body>
     <header class="header">
       <div class="container">
-        <a class="navigation-logo" href="/Zajęcia praktyczne 1/goit-markup-hw-01/index.html"
+        <a class="navigation-logo" href="/index.html"
         >WebStudio</a>
       <nav class="navigation">
-        <ul class="navigation-list">
+        <ul class="navigation-list list">
           <li class="navigation-list-item">
-            <a class="navigation-list-link link list" href="index.html">Agencja</a>
+            <a class="navigation-list-link link" href="index.html">Agencja</a>
           </li>
           <li class="navigation-list-item">
             <a
@@ -41,44 +44,54 @@
       </div>
     </header>
     <main>
-      <div class="hero">
+      <section class="hero">
+        <div class="container">
         <h1 class="hero-title">Efektywne Rozwiązania Dla Waszego Biznesu</h1>
+        </div>
+      </section>
+      <section class="modal-btn">
+        <div class="container">
         <button class="modal-btn" type="button">Zamów usługę</button>
-        </div>  
-        <ul class="description">
+        </div>
+      </section>
+      <section class="description">
+        <div class="container">
+        <ul class="description list">
           <li class="description-list">
-            <h2 class="description-main-header">LOREM IPSUM</h2>
             <p class="description-list-item">
+              <h2 class="description-main-header list">LOREM IPSUM</h2>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non
+              sodales dui. Interdum et malesuada
+            </p>
+          </li> 
+          <li class="description-list">
+            <p class="description-list-item">
+              <h2 class="description-main-header list">LOREM IPSUM</h2>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non
               sodales dui. Interdum et malesuada
             </p>
           </li>
           <li class="description-list">
-            <h2 class="description-main-header">LOREM IPSUM</h2>
             <p class="description-list-item">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non
-              sodales dui. Interdum et malesuada
-            </p>
-          </li>
-          <li class="description-list">
-            <h2 class="description-main-header">LOREM IPSUM</h2>
-            <p class="description-list-item">
+              <h2 class="description-main-header list">LOREM IPSUM</h2>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non
               sodales dui. Interdum et malesuada
             </p>
           </li class="description-list">
           <li>
-            <h2 class="description-main-header">LOREM IPSUM</h2>
-            <p class="description-list-item">
+            <p class="description-list-item"></p>
+            <h2 class="description-main-header list">LOREM IPSUM</h2>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non
               sodales dui. Interdum et malesuada
             </p>
           </li>
         </ul>
-      </div>
+        </div>
+    </section>  
       <section class="about">
+        <div class="container">
         <h2 class="about-main-header">Czym się zajmujemy</h2>
-        <ul class="about-image-list">
+        <ul class="about-image-list list">
           <li class="about-image-list-item">
             <img class="about-image-list-image"
               src="images/Czym_się_zajmujemy/image_1.jpg"
@@ -104,10 +117,12 @@
             />
           </li>
         </ul>
+      </div>
       </section>
       <section class="team">
+        <div class="container">
         <h2 class="team-main-header">Nasz zespół</h2>
-        <ul class="team-image-list">
+        <ul class="team-image-list list">
           <li class="team-image-list-item">
             <img class="team-image-list-image"
               src="images/O_nas/image_1.jpg"
@@ -144,6 +159,7 @@
             <p class="team-description">UI Designer</p>
           </li>
         </ul>
+        </div>
       </section>
     </main>
     <footer class="footer">
