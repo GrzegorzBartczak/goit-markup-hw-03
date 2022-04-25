@@ -253,22 +253,19 @@ img {
 }
 .team-image-list {
     display: flex;
-    align-items: center;
-    justify-content: space-between;
     margin-bottom: 30px;
     
 }
 .team-image-list-item:not(last-child) {
     margin-right: 30px;
     
-
 }
 .team-header-name {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.187;
     letter-spacing: 0.03em;
-    padding-top: 94px;
+    padding-top: 30px;
     color: var(--main-color);
    
 }
@@ -276,13 +273,16 @@ img {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.187;
+    padding-top: 10px;
     letter-spacing: 0.03em;
     color: var(--third-color);
 
 }
 .team-header-name,
 .team-description {
-    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin: auto;
     background-color: var(--fourth-color); 
 
 }
