@@ -66,10 +66,16 @@ img {
 .navigation-logo {
     display: flex;
     align-items: center;
+    font-family: 'Raleway', sans-serif;
     font-size: 26px;
     line-height: 1.383;
     margin-left: 50px;
-    margin-right: 50px;
+    margin-right: 90px;
+    text-decoration: none;
+    color: #2196F3
+
+}
+.span-logo {
     color: #000000;
 
 }
@@ -226,12 +232,19 @@ img {
 }
 .navigation-logo-2 {
     display: flex;
+    align-items: center;
+    font-family: 'Raleway', sans-serif;
     font-size: 26px;
     line-height: 1.383;
     padding-bottom: 20px;
     margin-top: 40px;
     margin-left: 215px;
-    color: #000000;
+    text-decoration: none;
+    color: #2196F3;
+
+}
+.span-logo-2 {
+    color: var(--fourth-color)
     
 }
 .navigation-address-list-target-link,
